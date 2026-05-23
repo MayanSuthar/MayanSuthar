@@ -1,12 +1,12 @@
 <div align="center">
 
 ```
-███╗   ██╗██╗   ██╗██╗     ██╗  ██╗   ██╗    ██████╗ ██╗     ██╗███████╗███████╗███████╗██╗   ██╗██╗
-████╗  ██║██║   ██║██║     ██║  ╚██╗ ██╔╝    ██╔══██╗██║     ██║██╔════╝██╔════╝██╔════╝██║   ██║██║
-██╔██╗ ██║██║   ██║██║     ██║   ╚████╔╝     ██████╔╝██║     ██║███████╗███████╗█████╗  ██║   ██║██║
-██║╚██╗██║██║   ██║██║     ██║    ╚██╔╝      ██╔══██╗██║     ██║╚════██║╚════██║██╔══╝  ██║   ██║██║
- ██║ ╚████║╚██████╔╝███████╗███████╗██║       ██████╔╝███████╗██║███████║███████║██║     ╚██████╔╝███████╗
- ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝╚═╝       ╚═════╝ ╚══════╝╚═╝╚══════╝╚══════╝╚═╝      ╚═════╝ ╚══════╝
+███╗   ██╗██╗   ██╗██╗     ██╗     ██╗   ██╗    ██████╗ ██╗     ██╗███████╗███████╗███████╗██╗   ██╗██╗
+████╗  ██║██║   ██║██║     ██║     ╚██╗ ██╔╝    ██╔══██╗██║     ██║██╔════╝██╔════╝██╔════╝██║   ██║██║
+██╔██╗ ██║██║   ██║██║     ██║      ╚████╔╝     ██████╔╝██║     ██║███████╗███████╗█████╗  ██║   ██║██║
+██║╚██╗██║██║   ██║██║     ██║       ╚██╔╝      ██╔══██╗██║     ██║╚════██║╚════██║██╔══╝  ██║   ██║██║
+██║ ╚████║╚██████╔╝███████╗███████╗  ██║        ██████╔╝███████╗██║███████║███████║██║      ╚██████╔╝███████╗
+╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝  ╚═╝        ╚═════╝ ╚══════╝╚═╝╚══════╝╚══════╝╚═╝       ╚═════╝ ╚══════╝
 ```
 
 <h3><i>"I am not a body. I am not even the mind."</i></h3>
@@ -15,7 +15,7 @@
 <br/>
 
 [![Medium](https://img.shields.io/badge/Medium-NullyBlissful-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@mayan230848)
-[![GitHub followers](https://img.shields.io/github/followers/MayanSuthar?style=for-the-badge&color=red&labelColor=black)](https://github.com/MayanSuthar)
+[![GitHub followers](https://img.shields.io/github/followers/MayanSuthar?style=for-the-badge&color=red&labelColor=black&logo=github)](https://github.com/MayanSuthar)
 [![Profile Views](https://komarev.com/ghpvc/?username=MayanSuthar&style=for-the-badge&color=red&label=PROFILE+VIEWS)](https://github.com/MayanSuthar)
 
 </div>
@@ -33,7 +33,8 @@ Hey — I'm **Mayan**, operating as **NullyBlissful** in the cybersecurity space
 
 I root machines. I write writeups. I chase `root.txt`.
 
-Currently grinding **OSCP** — documenting every compromise, every pivot, every shell along the way. My Medium is a raw, unfiltered journal of that grind — no paywalls, no gatekeeping, just pure methodology.
+Currently grinding **OSCP** — documenting every compromise, every pivot, every shell along the way.
+My Medium is a raw, unfiltered journal of that grind — no paywalls, no gatekeeping, just pure methodology.
 
 > *"The system is always exploitable. The question is whether you understand it well enough."*
 
@@ -42,15 +43,17 @@ Currently grinding **OSCP** — documenting every compromise, every pivot, every
 ## `> cat skills.txt`
 
 **🔴 Offensive Security**
+
 ```
-Privilege Escalation  ████████████░░  Expert
-Web Application Exploitation ███████████░░░  Advanced
-Network Reconnaissance  ████████████░░  Expert
-Buffer Overflows  ████████░░░░░░  Intermediate
-Active Directory  ███████░░░░░░░  Intermediate
+Privilege Escalation        ████████████░░  Expert
+Web App Exploitation        ███████████░░░  Advanced
+Network Reconnaissance      ████████████░░  Expert
+Buffer Overflows            ████████░░░░░░  Intermediate
+Active Directory            ███████░░░░░░░  Intermediate
 ```
 
 **🛠️ Tools & Arsenal**
+
 | Category | Tools |
 |---|---|
 | Recon | `nmap` `gobuster` `ffuf` `nikto` `whatweb` |
@@ -60,6 +63,7 @@ Active Directory  ███████░░░░░░░  Intermediate
 | Scripting | `python3` `bash` `powershell` |
 
 **💻 Languages**
+
 ![Python](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=yellow)
 ![Bash](https://img.shields.io/badge/Bash-black?style=flat-square&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-black?style=flat-square&logo=powershell&logoColor=blue)
@@ -104,16 +108,17 @@ My OSCP preparation journey documented on Medium — raw walkthroughs, no polish
 ## `> cat /etc/motd`
 
 ```
-  ██████████████████████████████████████████████████████████
-  ██                                                      ██
-  ██   "Enumerate everything. Assume nothing. Root all."  ██
-  ██                                                      ██
-  ██████████████████████████████████████████████████████████
+  ████████████████████████████████████████████████████████████
+  ██                                                        ██
+  ██   "Enumerate everything. Assume nothing. Root all."   ██
+  ██                                                        ██
+  ████████████████████████████████████████████████████████████
 ```
 
 <div align="center">
 
 ### Currently...
+
 🎯 **Preparing for OSCP** &nbsp;|&nbsp; 🧩 **Rooting Machines Daily** &nbsp;|&nbsp; 📝 **Writing Raw Walkthroughs**
 
 <br/>
