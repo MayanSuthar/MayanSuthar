@@ -2,8 +2,8 @@ name: Generate GitHub Stats SVGs
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs every day at midnight UTC
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -27,15 +27,9 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: Asia/Kolkata
           filename: github-stats.svg
-          # Dark hacker theme matching your README
-          config_display: large
-          extras_css: |
-            :root {
-              --color-background: #0d1117;
-              --color-text: #ffffff;
-              --color-border: #30363d;
-              --color-accent: #ff0000;
-            }
+          output_action: commit
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_message: "chore: update github-stats.svg [skip ci]"
 
       # ── Top Languages Card ───────────────────────────────────────────────────
       - name: Generate top languages card
@@ -48,12 +42,6 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 8
           filename: github-langs.svg
-
-      # ── Commit the generated SVGs back to the repo ───────────────────────────
-      - name: Commit updated SVGs
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-stats.svg github-langs.svg
-          git diff --cached --quiet || git commit -m "chore: update github stats [skip ci]"
-          git push
+          output_action: commit
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          committer_message: "chore: update github-langs.svg [skip ci]"
