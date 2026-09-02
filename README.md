@@ -175,21 +175,18 @@ My OSCP preparation journey documented on Medium — raw walkthroughs, no polish
 
 </div>
 
-<details>
-<summary>🏆 Trophies &amp; activity graph — currently omitted (public demo servers are suspended)</summary>
+<!--
+  Trophies & activity graph temporarily omitted.
+  github-readme-activity-graph.vercel.app and github-profile-trophy.vercel.app
+  both returned 402 Payment Required (shared free-tier Vercel quota exceeded)
+  as of Sep 2026 — nothing wrong with this profile, their hosting is out of quota.
 
-<br>
+  Once one is back up, or once you deploy your own free instance, paste this
+  back in above the closing </div> of the "cat github_stats.json" section:
 
-Both `github-readme-activity-graph.vercel.app` and `github-profile-trophy.vercel.app` are returning `402 Payment Required` right now — their maintainers have hit the free Vercel usage cap on the shared public instance, so the images won't load for anyone until that resets or they self-host. Nothing wrong with your setup.
-
-Once one of them is back up (or once you deploy your own free instance — see the maintainer's "Deploy" button on each repo), paste this back in above the closing `</div>` of this section:
-
-```html
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MayanSuthar&bg_color=0d1117&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=false" />
-<img src="https://github-profile-trophy.vercel.app/?username=MayanSuthar&theme=matrix&no-frame=true&margin-w=8" alt="trophies" />
-```
-
-</details>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayanSuthar&bg_color=0d1117&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=false" />
+  <img src="https://github-profile-trophy.vercel.app/?username=MayanSuthar&theme=matrix&no-frame=true&margin-w=8" alt="trophies" />
+-->
 
 ---
 
