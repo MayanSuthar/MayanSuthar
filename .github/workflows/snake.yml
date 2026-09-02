@@ -1,0 +1,46 @@
+# Drop this file at: .github/workflows/snake.yml
+# in your MayanSuthar/MayanSuthar profile repo.
+#
+# It regenerates a "snake" that eats your contribution graph and
+# pushes the SVGs to a branch called `output`, which is what the
+# <picture> tag in README.md points to.
+#
+# One-time setup:
+#   1. Repo → Settings → Actions → General → Workflow permissions
+#      → set to "Read and write permissions", save.
+#   2. Commit this file, then run it once from the Actions tab
+#      (workflow_dispatch) so the `output` branch gets created.
+# After that it refreshes automatically every 6 hours.
+
+name: generate-snake-animation
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: MayanSuthar
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: push snake svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
