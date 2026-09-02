@@ -9,17 +9,36 @@
 ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝  ╚═╝        ╚═════╝ ╚══════╝╚═╝╚══════╝╚══════╝╚═╝       ╚═════╝ ╚══════╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=Cybersecurity+Researcher+%7C+OSCP+Candidate;Enumerate+everything.+Assume+nothing.;Null+is+peace.+Bliss+is+the+overflow.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=900&color=FF0000&center=true&vCenter=true&width=800&lines=Booting+nullyblissful.sh;Loading+exploit-db+cache...+done;Mounting+root+access;whoami;Cybersecurity+Researcher+%7C+OSCP+Candidate;Enumerate+everything.+Assume+nothing.;Null+is+peace.+Bliss+is+the+overflow.)](https://git.io/typing-svg)
 
 <h4>[ I am not a body. I am not even the mind. ]</h4>
 
 <br/>
 
-[![Medium](https://img.shields.io/badge/Medium-NullyBlissful-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nullyblissful)
+[![Medium](https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nullyblissful)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/mayan-suthar-5625b1229/)
 [![GitHub followers](https://img.shields.io/github/followers/MayanSuthar?style=for-the-badge&color=red&labelColor=black&logo=github)](https://github.com/MayanSuthar)
 [![Profile Views](https://komarev.com/ghpvc/?username=MayanSuthar&style=for-the-badge&color=red&label=PROFILE+VIEWS)](https://github.com/MayanSuthar)
 
 </div>
+
+---
+
+## `> neofetch --oscp`
+
+```
+root@nullyblissful
+-------------------
+OS         : OSCP-Prep OS x86_64
+Host       : HackTheBox / VulnHub
+Kernel     : root-access-5.15
+Shell      : zsh + bash
+Editor     : vim (btw)
+Uptime     : grinding since day 1
+Focus      : PrivEsc, Active Directory, Web Exploitation
+Mission    : root.txt on every box, no exceptions
+Status     : [ENUMERATING...]
+```
 
 ---
 
@@ -39,6 +58,22 @@ My Medium is a raw, unfiltered journal of that grind — no paywalls, no gatekee
 
 > *"The system is always exploitable. The question is whether you understand it well enough."*
 
+<details>
+<summary>🔓 <code>root@nullyblissful:~# cat .hidden_flag</code></summary>
+
+<br>
+
+```
+[+] decrypting payload...
+[+] payload decrypted.
+
+    flag{y0u_f0und_th3_r34dm3_3ast3r_egg}
+
+[+] nice recon. now go pop a box.
+```
+
+</details>
+
 ---
 
 ## `> cat skills.txt`
@@ -51,6 +86,7 @@ Web App Exploitation        ███████████░░░  Advanced
 Network Reconnaissance      ████████████░░  Expert
 Buffer Overflows            ████████░░░░░░  Intermediate
 Active Directory            ███████░░░░░░░  Intermediate
+OSCP Exam Readiness         ███████████░░░  70%
 ```
 
 **🛠️ Tools & Arsenal**
@@ -68,7 +104,23 @@ Active Directory            ███████░░░░░░░  Intermed
 ![Python](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=yellow)
 ![Bash](https://img.shields.io/badge/Bash-black?style=flat-square&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-black?style=flat-square&logo=powershell&logoColor=blue)
+![Lua](https://img.shields.io/badge/Lua-black?style=flat-square&logo=lua&logoColor=blue)
 ![C](https://img.shields.io/badge/C-black?style=flat-square&logo=c&logoColor=white)
+
+---
+
+## `> ./featured_builds.sh`
+
+Tools I've built to speed up the grind — not just writeups.
+
+<div align="center">
+
+<a href="https://github.com/MayanSuthar/Reko"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MayanSuthar&repo=Reko&theme=dark&bg_color=0d1117&border_color=ff0000&title_color=ff0000&icon_color=ff0000&text_color=ffffff" alt="Reko" /></a>
+<a href="https://github.com/MayanSuthar/OSCP-Methodology"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MayanSuthar&repo=OSCP-Methodology&theme=dark&bg_color=0d1117&border_color=ff0000&title_color=ff0000&icon_color=ff0000&text_color=ffffff" alt="OSCP-Methodology" /></a>
+
+</div>
+
+> **Reko** — one Nmap NSE script that scans 29 services, ranks every finding by severity, and spits out the exact exploit command. Built to stop juggling 8 tools mid-CTF.
 
 ---
 
@@ -109,7 +161,36 @@ My OSCP preparation journey documented on Medium — raw walkthroughs, no polish
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayanSuthar&bg_color=0d1117&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=false" />
 
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=MayanSuthar&theme=matrix&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="trophies" />
+
 </div>
+
+---
+
+## `> ./contribution_snake.sh`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MayanSuthar/MayanSuthar/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MayanSuthar/MayanSuthar/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake eating the graph" src="https://raw.githubusercontent.com/MayanSuthar/MayanSuthar/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+> ⚙️ *This one needs a one-time setup — see `snake.yml` below. Add the workflow, push once, and the snake generates itself daily.*
+
+---
+
+## `> cat CONTACT`
+
+Found a bug in Reko? Want to trade notes on a box? Reach out:
+
+[![Medium](https://img.shields.io/badge/Read_my_writeups-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nullyblissful)
+[![LinkedIn](https://img.shields.io/badge/Let's_connect-black?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/mayan-suthar-5625b1229/)
 
 ---
 
@@ -134,5 +215,12 @@ My OSCP preparation journey documented on Medium — raw walkthroughs, no polish
 *"Null is peace. Bliss is the overflow."*
 
 **— NullyBlissful**
+
+<br/>
+
+![last commit](https://img.shields.io/github/last-commit/MayanSuthar/MayanSuthar?style=for-the-badge&color=ff0000&labelColor=black&label=last%20root)
+
+$ echo $?
+`0`
 
 </div>
