@@ -181,8 +181,6 @@ My OSCP preparation journey documented on Medium — raw walkthroughs, no polish
 
 </div>
 
-> ⚙️ *This one needs a one-time setup — see `snake.yml` below. Add the workflow, push once, and the snake generates itself daily.*
-
 ---
 
 ## `> cat CONTACT`
