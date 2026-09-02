@@ -113,14 +113,30 @@ OSCP Exam Readiness         ███████████░░░  70%
 
 Tools I've built to speed up the grind — not just writeups.
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/MayanSuthar/Reko"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MayanSuthar&repo=Reko&theme=dark&bg_color=0d1117&border_color=ff0000&title_color=ff0000&icon_color=ff0000&text_color=ffffff" alt="Reko" /></a>
-<a href="https://github.com/MayanSuthar/OSCP-Methodology"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MayanSuthar&repo=OSCP-Methodology&theme=dark&bg_color=0d1117&border_color=ff0000&title_color=ff0000&icon_color=ff0000&text_color=ffffff" alt="OSCP-Methodology" /></a>
+**[Reko →](https://github.com/MayanSuthar/Reko)**
+One Nmap NSE script that scans 29 services, ranks every finding by severity, and spits out the exact exploit command. Built to stop juggling 8 tools mid-CTF.
 
-</div>
+![Stars](https://img.shields.io/github/stars/MayanSuthar/Reko?style=flat-square&color=ff0000&labelColor=0d1117)
+![Forks](https://img.shields.io/github/forks/MayanSuthar/Reko?style=flat-square&color=ff0000&labelColor=0d1117)
+![Top Language](https://img.shields.io/github/languages/top/MayanSuthar/Reko?style=flat-square&color=ff0000&labelColor=0d1117)
 
-> **Reko** — one Nmap NSE script that scans 29 services, ranks every finding by severity, and spits out the exact exploit command. Built to stop juggling 8 tools mid-CTF.
+</td>
+<td width="50%" valign="top">
+
+**[OSCP-Methodology →](https://github.com/MayanSuthar/OSCP-Methodology)**
+My working checklist and approach for systematically enumerating and rooting OSCP-style boxes.
+
+![Stars](https://img.shields.io/github/stars/MayanSuthar/OSCP-Methodology?style=flat-square&color=ff0000&labelColor=0d1117)
+![Forks](https://img.shields.io/github/forks/MayanSuthar/OSCP-Methodology?style=flat-square&color=ff0000&labelColor=0d1117)
+![Top Language](https://img.shields.io/github/languages/top/MayanSuthar/OSCP-Methodology?style=flat-square&color=ff0000&labelColor=0d1117)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -157,15 +173,23 @@ My OSCP preparation journey documented on Medium — raw walkthroughs, no polish
 
 <img src="https://streak-stats.demolab.com/?user=MayanSuthar&theme=dark&background=0d1117&ring=ff0000&fire=ff0000&currStreakLabel=ff0000&border=30363d" />
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MayanSuthar&bg_color=0d1117&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=false" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=MayanSuthar&theme=matrix&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="trophies" />
-
 </div>
+
+<details>
+<summary>🏆 Trophies &amp; activity graph — currently omitted (public demo servers are suspended)</summary>
+
+<br>
+
+Both `github-readme-activity-graph.vercel.app` and `github-profile-trophy.vercel.app` are returning `402 Payment Required` right now — their maintainers have hit the free Vercel usage cap on the shared public instance, so the images won't load for anyone until that resets or they self-host. Nothing wrong with your setup.
+
+Once one of them is back up (or once you deploy your own free instance — see the maintainer's "Deploy" button on each repo), paste this back in above the closing `</div>` of this section:
+
+```html
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MayanSuthar&bg_color=0d1117&color=ff0000&line=ff0000&point=ffffff&area=true&hide_border=false" />
+<img src="https://github-profile-trophy.vercel.app/?username=MayanSuthar&theme=matrix&no-frame=true&margin-w=8" alt="trophies" />
+```
+
+</details>
 
 ---
 
@@ -180,6 +204,8 @@ My OSCP preparation journey documented on Medium — raw walkthroughs, no polish
 </picture>
 
 </div>
+
+> ⚙️ *This one needs a one-time setup — see `snake.yml` below. Add the workflow, push once, and the snake generates itself daily.*
 
 ---
 
